@@ -1,6 +1,6 @@
 # DSA-Practice
 
-Welcome to my DSA-Practice repository! 🎉
+Welcome to my DSA-Practice repository! 
 
 This repo is dedicated to my journey of mastering Data Structures and Algorithms (DSA) through the **100 Days of Code** challenge.
 
