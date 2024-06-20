@@ -41,3 +41,40 @@ int main(){
     trap(heights,n);
 }
 // Note if the array is ascending or descending NO water trapped and hence ans will be 0.
+//TWO POINTER APPROACH
+// class Solution {
+// public:
+//     int trap(vector<int>& height) {
+//         int n=height.size();
+//         int left=0,right=n-1;
+//         int res=0;
+//         int leftMax,rightMax=0;
+//         while(left<=right){
+//             if(height[left]<=height[right]){
+//                 if(height[left]<=height[right]){
+//                     if(height[left]>leftMax){
+//                         //update value of leftmax
+//                         leftMax=height[left];
+//                     }
+
+//                     else{
+//                         res+=leftMax-height[left];
+//                     }
+//                 left++;
+//                 }
+//             }
+//             else{
+//                 if(height[right]>=rightMax){
+//                     rightMax=height[right];
+
+//                 }
+//                 else{
+//                     res+=rightMax-height[right];
+//                 }
+//                 right--;
+//             }
+            
+//         }
+//         return res;
+//     }
+// };
