@@ -1,3 +1,10 @@
-.vscode/settings.json
-.vscode/launch.json
 .vscode/c_cpp_properties.json
+.vscode/launch.json
+.vscode/settings.json
+.vscode/tasks.json
+Arrays/.vscode/c_cpp_properties.json
+Arrays/.vscode/launch.json
+Arrays/.vscode/settings.json
+Strings/.vscode/c_cpp_properties.json
+Strings/.vscode/launch.json
+Strings/.vscode/settings.json
