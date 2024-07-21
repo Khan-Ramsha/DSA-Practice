@@ -20,3 +20,5 @@ int main(){
 }
 //but the above code has time complexity of O(n^2)
 //Optimized solution
+
+
