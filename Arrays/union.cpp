@@ -65,8 +65,6 @@ void Union(vector <int> v1,vector <int> v2){
     {
         cout<<Union_Arr[i]<<" ";
     }
-
-    
 }
 int main(){
     vector<int> v1={1,1,2,5};
