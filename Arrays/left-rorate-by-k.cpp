@@ -43,4 +43,40 @@ int main(){
     leftrotate(a,n,k);
     return 0;
 }
-
+//rotating right by k positions
+// class Solution {
+// public: 
+//     void rotate(vector<int>& arr, int k) {
+//         int n = arr.size();
+//         int p=0;
+//         int temp[k];
+//         for(int i = n-k; i<n ;i++){
+//             temp[p++]=arr[i];
+//         }
+//         for(int i=n-k-1;i>=0;i--){
+//             arr[i+k]=arr[i];
+//         }
+//         for(int i=0;i<k;i++){
+//             arr[i]=temp[i];
+//         }
+//     }
+// };
+//rotating left by k pos
+// class Solution {
+// public:
+//     void rotate(vector<int>& arr, int k) {
+//         int n = arr.size();
+//         int p=0;
+        
+//         int temp[k];
+//         for(int i =0; i<k ;i++){
+//             temp[i]=arr[i];
+//         }
+//         for(int i=k;i<n;i++){
+//             arr[i-k]=arr[i];
+//         }
+//         for(int i=n-k;i<n;i++){
+//             arr[i]=temp[p++];
+//         }
+//     }
+// };

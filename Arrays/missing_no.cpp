@@ -53,3 +53,21 @@ int main(){
     cout<<ans<<" ";
     return 0;
 }
+
+// class Solution {
+// public:
+//     int missingNumber(vector<int>& nums) {
+//         //approach 1
+//         int n = nums.size();
+//         vector<int> ans(n+1,-1);
+//         for(auto it : nums){
+//             ans[it]=it;
+//         }
+//         for(int i=0 ; i<ans.size() ; i++){
+//             if(ans[i] == -1){
+//                 return i;
+//             }
+//         }
+//         return 0;
+//     }
+// };

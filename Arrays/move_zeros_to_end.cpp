@@ -68,3 +68,18 @@ int main(){
     movetoend(nums,size);
 
 }
+//one pointer works when nonzero found, and a loop is used to iterate through whole array
+// class Solution {
+// public:
+//     void moveZeroes(vector<int>& nums) {
+//         int j=0;
+//         int n=nums.size();
+//         for(int i=0;i<n;i++){
+//             if(nums[i]!=0){
+//                 swap(nums[i],nums[j]);
+//                 j++;
+//             }
+//         }
+
+//     }
+// };
