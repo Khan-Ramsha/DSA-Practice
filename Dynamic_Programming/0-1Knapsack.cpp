@@ -6,7 +6,7 @@
 // 			  return 0; 
 // 		  }
 // 		  if(dp[ind][W]!=-1) return dp[ind][W];
-// 		  int notTake=0+        f(ind-1,W,values,weights,dp);
+// 		  int notTake=0+f(ind-1,W,values,weights,dp);
 // 		  int take=0;
 // 		  if(weights[ind] <= W){
 // 			  take=values[ind] + f(ind-1,W-weights[ind],values,weights,dp);
