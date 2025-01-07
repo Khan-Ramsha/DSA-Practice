@@ -10,7 +10,7 @@
 // 	    //Option 2- take the element
 // 	    int take=0;
 // 	    if(prev == -1 || arr[ind] > arr[prev]){
-// 	        take = arr[ind] + f(ind+1, ind, arr, n);
+// 	        take = arr[ind] + f(ind+1, ind, arr, n);'
 // 	    }
 	    
 // 	    return max(take,notTake);
